@@ -1,0 +1,62 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+body{
+    background-color: rgba(9, 5, 61, 0.836);
+}
+.title{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.main{
+    margin-top: 4rem;
+    width:50%;
+    background-color: rgb(190, 227, 223);
+    margin: auto;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 0;
+}
+.dog{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.button{
+    color:white;
+    background-color: darkblue;
+    border: none;
+    margin: auto;
+    height: 3rem;
+    border-radius: 5px;
+    width: 22%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.button1{
+    color:white;
+    background-color: rgb(151, 151, 230);
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}

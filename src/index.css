@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(111, 235, 138, 0.623);
+    height:100vh;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.dog{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.names{
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    padding: 0 2rem;
+}
+.button{
+    height: 3rem;
+    width: 20%;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+.button1{
+    height: 3rem;
+    width: 40%;
+    background-color: rgb(255, 62, 62);
+    color: aliceblue;
+    border: none;
+    font-size: large;
+    font-weight: 700;border-radius: 5px;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: bisque;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
